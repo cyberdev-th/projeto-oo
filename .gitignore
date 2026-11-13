@@ -1,0 +1,17 @@
+# Ambiente virtual (cada um cria o seu, não vai pro Git)
+.venv/
+
+# Cache do Python (gerado automaticamente, não é código)
+__pycache__/
+*.pyc
+
+# Configurações locais de editor
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente (segredos — nunca vão pro Git!)
+.env
